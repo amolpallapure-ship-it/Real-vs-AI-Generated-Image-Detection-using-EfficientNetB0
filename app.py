@@ -33,7 +33,7 @@ model = models.Sequential([
 
 # Load the weights into the defined model
 try:
-    model.load_weights("/content/RealVsFake_MobileNetV2.h5")
+    model.load_weights("RealVsFake_MobileNetV2.h5")
     st.success("Model weights loaded successfully!")
 except Exception as e:
     st.error(f"Error loading model weights: {e}")
