@@ -3,6 +3,7 @@ import streamlit as st
 import numpy as np
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
+from tensorflow.keras.applications import MobileNetV2
 from tensorflow.keras.models import Sequential, load_model
 from tensorflow.keras import layers, models
 from PIL import Image
